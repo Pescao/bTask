@@ -8,6 +8,10 @@ requirejs.config({
     }
 });
 
+$.ajaxSetup({
+    xhrFields: { withCredentials: true }
+});
 require(['app'], function(App) {
     window.bTask = new App();
+    window.bTask.start();
 });

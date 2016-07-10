@@ -1,7 +1,7 @@
 /**
  * Created by pescao on 10.07.2016.
  */
-define(['text!templates/user.tpl'], function(userTpl) {
+define([], function() {
     var User = function() {
 
     };
