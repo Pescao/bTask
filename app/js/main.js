@@ -4,7 +4,7 @@
 requirejs.config({
     baseUrl: 'js',
     paths: {
-        tpl: '/templates'
+        templates: '/templates'
     }
 });
 
