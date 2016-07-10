@@ -3,8 +3,9 @@
  */
 requirejs.config({
     baseUrl: 'js',
-    paths: {},
-    shim: {}
+    paths: {
+        tpl: '/templates'
+    }
 });
 
 require(['app'], function(App) {
