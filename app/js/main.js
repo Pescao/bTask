@@ -9,6 +9,7 @@ requirejs.config({
 });
 
 $.ajaxSetup({
+    crossDomain: true,
     xhrFields: { withCredentials: true }
 });
 require(['app'], function(App) {
